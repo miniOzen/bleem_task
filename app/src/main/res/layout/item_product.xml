@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="165dp"
+    android:layout_marginBottom="16dp"
+    android:layout_height="210dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="165dp"
+        android:layout_height="165dp">
+
+        <ImageView
+            android:id="@+id/productImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:layout_margin="5dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/favorite"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:fontFamily="sans-serif-condensed"
+            android:id="@+id/sameDayLabel"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/same_day_bg"
+            android:gravity="center"
+            android:text="@string/same_day"
+            android:textColor="@color/white"
+            android:textSize="11sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:fontFamily="sans-serif-condensed"
+            android:text="20% OFF - Blue Titles"
+            android:layout_weight="1"
+            android:id="@+id/productName"
+            android:textAlignment="textStart"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:textColor="@color/dark_blue"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:fontFamily="sans-serif-condensed"
+            android:textAlignment="textEnd"
+            android:layout_weight="1"
+            android:id="@+id/price"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="KWD 28.000"
+            android:textColor="@color/dark_blue"
+            android:textSize="16sp"
+             />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Flower App</string>
+    <string name="items">Items</string>
+    <string name="popular_item">Popular Item</string>
+    <string name="same_day">Same Day Delivery</string>
+    <string name="price_format">%.3f</string>
+</resources>
